@@ -1,15 +1,10 @@
-
-
-
-<DOCTYPE <!DOCTYPE html>
+<!DOCTYPE html>
     <html>
     <head>
         <meta charset="utf-8" />
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <title>Vahnahla</title>
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <link rel="stylesheet" type="text/css" media="screen" href="main.css" />
-        <script src="main.js"></script>
+        <link rel="stylesheet" type="text/css" href="style.css" />
+        <script type="text/javascript" src="elf.js" defer></script>
     </head>
     <body>
         <div class="welcome">
@@ -17,15 +12,19 @@
             <p>You must make a choices in the hopes of moving up in class and becoming a part of the queen's court. Careful with that one though, she just might make you the jester!</p>
             <p>Click Here To Begin</p>
         </div>    
-        <div class="first choice">
+        <div class="first ">
             <h2>You Are A Grunt</h2>
-            <p>Your options are limited you can attend SCHOOL or sell goods at the MARKET</p>
-        </div>
-        <div class="second choice">
-            <h1></h1>
-            <p>
-    
+            <p>Your options are limited you can attend SCHOOL or sell goods at the MARKET  
             </p>
+            <p id="study" class="choice">Head To School</p>
+            <p id="sell" class="choice">Head To Market</p>
+        </div>
+        <div class="second">
+            <h2>You Are Now A Citizen</h2>
+            <p>You're moving up the ladder but a war just erupted and you must make another choice:
+            </p>
+            <p class="choice moresell">Head To Market</p>
+            <p class="choice war">Head To War</p>
         </div>
     </body>
     </html>
