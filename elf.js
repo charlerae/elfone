@@ -2,48 +2,53 @@
 
 var btn = document.getElementById('study');
 
-function blue(){
-    var rand = Math.floor(Math.random() * 10);
-    console.log(rand);
-    if (rand < 10) {
-        console.log("congrats");
-    } else {
-        console.log("sorry");
-    }
+study.addEventListener('click', function blue(){
+    console.log(Math.floor(Math.random() * 10));
+    
+     if (blue() < 6){
+     console.log("Congrats!! You have a degree and are now a citizen of Vanhala, but you have another choice to make. War has broken out and you must decide if you will defend your new home.");
+     }
+     else{
+     console.log("Sorry.. You flunked out of school. Better luck next time grunt.");
+     }
+  });
 
 //adding event listener/handler for school button
-btn.addEventListener('click',   
-
+btn.addEventListener('click',  
 );
-
-
-
-
-//printing result of school button
-if (adchoice = "congrats") {
-    console.log("Congrats!! You have a degree and are now a citizen of Vanhala, but you have another choice to make. War has broken out and you must decide if you will defend your new home.")
-} else if (sorry) {
-    console.log("Sorry.. You flunked out of school. Better luck next time grunt.")
-}
-
-
 
 
 //random outcome for market button
 var btn = document.getElementById('sell');
+var market = purple;
 
 //adding event listener for market button
-btn.addEventListener('click', function(){
-    var rand = Math.floor(Math.random() * choosetwo.length);
-    console.log(rand);
-})
+sell.addEventListener('click', function purple(){
+    console.log(Math.floor(Math.random() * 10));
+    
+    if (purple() < 6){
+      console.log("You made BooKoo Bucks, paid your taxes and you are now a citizen of Vahnahla. However, you have another choice to make. War has broken out and you must decide if you will defend your new home.");
+    }
+    else{
+      console.log("Sorry.. You got robbed at the market. Better luck next time grunt.");
+    }
+  });
 
-//printing result of market button
-if (adchoice = "congrats") {
-    console.log("You made BooKoo Bucks, paid your taxes and you are now a citizen of Vahnahla. However, you have another choice to make. War has broken out and you must decide if you will defend your new home.")
-} else (rand = 3) {
-    console.log("Sorry.. You got robbed at the market. Better luck next time grunt.")
-}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 //   XXXXX QQQ LEVEL TWO QQQ XXXXX

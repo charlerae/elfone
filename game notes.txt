@@ -1,0 +1,66 @@
+
+Arrive on Welcome Page / Grunt Page with first choice
+
+
+grunt  chooses school or selling at market
+	school: rand var [graduate, flunk]
+	market: rand var [make$, robbed]
+		Return to start if failed
+
+		button for each choice
+		function that chooses random outcome
+		if/else statement to move through process
+			onclick >school 
+				"A" Graduate Now A Citizen
+				"B" You Flunked Out -Start Over
+				If "A" display....choice2 
+				Else display ...grunt page
+
+			onclick >market 
+				"A" You Made lots of $ Now A Citizen
+				"B" You were robbed -Start Over
+				If "A" display....choice2 
+				Else display ...welcome page
+
+
+citizen chooses war or selling at market
+	war: rand [win, die]
+	market: rand [rich, die in robbery]
+		You Lose or Move Up
+
+		button for each choice
+		function that chooses random outcome
+		if/else statement to move through process
+			onclick >back to market 
+				"A" You Got Rich -Now a Noble
+				"B" Robbed Again -Died
+				If "A" display....You get to meet the queen 
+				Else display ...Game Over
+
+			onclick >war 
+				"A" You Made lots of $ Now A Citizen
+				"B" You were lost in battle -Start Over
+				If "A" display....You get to meet the queen 
+				Else display ...Game Over
+		
+
+noble  meets the queen, final outcome
+	rand var: Court -You Win
+		  Jester -You're A Joke!
+	
+		button for queen's decision
+		function listens to button click 
+		console.log random outcome "jester" or "court"
+		if/else statement for court or jester  
+
+
+
+
+
+have math.random choose get number to choose congrats or sorry
+
+have if/else playout different results depending on congrats or sorry
+
+use same achoice function for all
+
+  
