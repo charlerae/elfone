@@ -5,9 +5,9 @@ school.addEventListener('click', function studychoice(){
     console.log(Math.floor(Math.random() * 10));
     
 if (studychoice() < 6){
-    onClick="javascript: windo.location.href = '/schoolcongrats'";
+    onClick="javascript: window.location.href = '/schoolcongrats'";
     } else {
-        onClick="javascript: windo.location.href = '/schoolsorry'";
+        onClick="javascript: window.location.href = '/schoolsorry'";
     }
 });
 
@@ -15,9 +15,9 @@ market.addEventListener('click', function marketchoice(){
     console.log(Math.floor(Math.random() * 10));
     
 if (marketchoice() < 6){
-    onClick="javascript: windo.location.href = '/marketcongrats'";
+    onClick="javascript: window.location.href = '/marketcongrats'";
     } else {
-        onClick="javascript: windo.location.href = '/marketsorry'";
+        onClick="javascript: window.location.href = '/marketsorry'";
     }
 });
 
@@ -26,9 +26,9 @@ school.addEventListener('click', function warchoice(){
     console.log(Math.floor(Math.random() * 10));
     
 if (warchoice() < 6){
-    onClick="javascript: windo.location.href = '/warcongrats'";
+    onClick="javascript: window.location.href = '/warcongrats'";
     } else {
-        onClick="javascript: windo.location.href = '/warsorry'";
+        onClick="javascript: window.location.href = '/warsorry'";
     }
 });
 
@@ -36,8 +36,8 @@ market.addEventListener('click', function queenchoice(){
     console.log(Math.floor(Math.random() * 10));
     
 if (queenchoice() < 6){
-    onClick="javascript: windo.location.href = '/armscongrats'";
+    onClick="javascript: window.location.href = '/armscongrats'";
     } else {
-        onClick="javascript: windo.location.href = '/armssorry'";
+        onClick="javascript: window.location.href = '/armssorry'";
     }
 });
