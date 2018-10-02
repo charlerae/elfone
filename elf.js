@@ -1,6 +1,6 @@
 
 
-/* determining choice of first button  */
+/* determining choice of first button  
 school.addEventListener('click', function studychoice(){
     console.log(Math.floor(Math.random() * 10));
     
@@ -9,9 +9,9 @@ if (studychoice() < 6){
     } else {
         onClick="javascript: window.location.href = '/schoolsorry'";
     }
-});
+});*/
 
-market.addEventListener('click', function marketchoice(){
+/* market.addEventListener('click', function marketchoice(){
     console.log(Math.floor(Math.random() * 10));
     
 if (marketchoice() < 6){
@@ -21,8 +21,8 @@ if (marketchoice() < 6){
     }
 });
 
-/* determining choice of second button  */
-school.addEventListener('click', function warchoice(){
+
+war.addEventListener('click', function warchoice(){
     console.log(Math.floor(Math.random() * 10));
     
 if (warchoice() < 6){
@@ -32,7 +32,7 @@ if (warchoice() < 6){
     }
 });
 
-market.addEventListener('click', function queenchoice(){
+arms.addEventListener('click', function queenchoice(){
     console.log(Math.floor(Math.random() * 10));
     
 if (queenchoice() < 6){
@@ -40,4 +40,36 @@ if (queenchoice() < 6){
     } else {
         onClick="javascript: window.location.href = '/armssorry'";
     }
-});
+}); */
+
+function queenchoice() {
+    return (Math.floor(Math.random() * 10));
+}
+
+let queen = document.querySelector('.queen');    
+
+function meetQueen() {
+    function queenchoice() {
+        return (Math.floor(Math.random() * 10));
+    };
+    
+    if (queenchoice() < 6){
+    alert ('Congratulations The Queen Just Added You To Her Court. You can retire and relax. Enjoy your new life of luxury, or you could always play again..')
+    } else {
+        alert ('The Queen’s In A Funny Mood! She has decided to make you the Official Court Jester. An opportunity you literally cannot refuse.');
+    }
+};
+
+queen.addEventListener("click", meetQueen);
+
+
+let tryagain = document.querySelector('.tryagain');
+
+
+function restart() {
+    
+    alert ('hello!')
+    
+};
+
+tryagain.addEventListener("click", restart);
