@@ -41,9 +41,26 @@ if (queenchoice() < 6){
         onClick="javascript: window.location.href = '/armssorry'";
     }
 }); */
+/* Work on this One!!!!!!! */
+function learn() {
+    return (Math.floor(Math.random() * 10));
+}
+
+let school = document.querySelector('.school');    
+
+function gotoschool() {
+    if (learn() < 6) {
+    alert ('Congratulations You Graduated!! You are now a degree carrying citizen of Vahnahlah!  However, this is a critical time for our city as war has broken out with a neighboring city. Will you defend your new city and fight in the war, or will you do business selling arms?');
+    } else { 
+        alert ('You Flunked Out!!  Sorry but it seems you don’t have what it takes to make it through school. Better Luck Next Time Grunt!');
+    };
+}
+
+
+
 
 function queenchoice() {
-    return (Math.floor(Math.random() * 10));
+    console.log(Math.floor(Math.random() * 10));
 }
 
 let queen = document.querySelector('.queen');    
