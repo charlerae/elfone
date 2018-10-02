@@ -48,19 +48,15 @@ function queenchoice() {
 
 let queen = document.querySelector('.queen');    
 
-function meetQueen() {
-    function queenchoice() {
-        return (Math.floor(Math.random() * 10));
-    };
-    
-    if (queenchoice() < 6){
-    alert ('Congratulations The Queen Just Added You To Her Court. You can retire and relax. Enjoy your new life of luxury, or you could always play again..')
-    } else {
+function meetqueen() {
+    if (queenchoice() < 6) {
+    alert ('Congratulations The Queen Just Added You To Her Court. You can retire and relax. Enjoy your new life of luxury, or you could always play again..');
+    } else { 
         alert ('The Queen’s In A Funny Mood! She has decided to make you the Official Court Jester. An opportunity you literally cannot refuse.');
-    }
+    };
 };
 
-queen.addEventListener("click", meetQueen);
+queen.addEventListener("click", meetqueen);
 
 
 let tryagain = document.querySelector('.tryagain');
@@ -68,7 +64,7 @@ let tryagain = document.querySelector('.tryagain');
 
 function restart() {
     
-    alert ('hello!')
+    alert ('You Lose!!')
     
 };
 
