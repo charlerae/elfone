@@ -41,10 +41,27 @@ if (queenchoice() < 6){
         onClick="javascript: window.location.href = '/armssorry'";
     }
 }); */
-/* Work on this One!!!!!!! */
+
+
+/* Sell At Market Button */
 function learn() {
     return (Math.floor(Math.random() * 10));
+} 
+
+let marketsale = document.querySelector('.marketsale');    
+
+function sale() {
+    if (learn() < 6) {
+    alert ('Congratulations You Made BooKoo Bucks!! You were able to pay your taxes to become a citizen of Vahnahlah!  However, this is a critical time for our city as war has broken out with a neighboring city. Will you defend your new city and fight in the war, or will you do business selling arms?');
+    } else { 
+        alert ('Your Merchandise Sucks!!  Sorry but it seems you don’t have merchandise the citizens want to buy. Better Luck Next Time Grunt!');
+    };
 }
+
+/* Go To School Button 
+function learn() {
+    return (Math.floor(Math.random() * 10));
+} */
 
 let school = document.querySelector('.school');    
 
@@ -56,7 +73,7 @@ function gotoschool() {
     };
 }
 
-
+/* Meet The Queen Button */
 function queenchoice() {
     console.log(Math.floor(Math.random() * 10));
 }
