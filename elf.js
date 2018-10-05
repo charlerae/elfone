@@ -1,4 +1,16 @@
 
+function weapons() {
+    console.log(Math.floor(Math.random() * 10));
+}
+
+function sellarms() {
+    if (weapons() < 6) {
+    alert ('Congratulations You Just Stacked Duckets On Duckets!! You made so much money you’re RICH!!!  You made it! You are now a member of Vahnahlah’s Noble class which means you get to meet the Queen. Only thing about that is she sometimes has an odd sense of humor. Careful she doesn’t make you the subject of her jokes…');
+    } else { 
+        alert ('You Were Robbed!!  Sorry but I’m afraid one of your customers found out you were selling to both sides and decided to rob you. There was gunfire and ..well.. you didn’t make it. Better Luck Next Time Trader!');
+    };
+};
+
 
 /* Defend City Button */
 function fight() {
@@ -14,12 +26,12 @@ function defend() {
 }
 
 /* Sell At Market Button */
-function learn() {
+function goods() {
     return (Math.floor(Math.random() * 10));
 } 
 
 function sale() {
-    if (learn() < 6) {
+    if (goods() < 6) {
     alert ('Congratulations You Made BooKoo Bucks!! You were able to pay your taxes to become a citizen of Vahnahlah!  However, this is a critical time for our city as war has broken out with a neighboring city. Will you defend your new city and fight in the war, or will you do business selling arms?');
     } else { 
         alert ('Your Merchandise Sucks!!  Sorry but it seems you don’t have merchandise the citizens want to buy. Better Luck Next Time Grunt!');
@@ -52,3 +64,16 @@ function meetqueen() {
     };
 };
 
+
+/* Try Again Buttons */
+function restart() {
+    alert ('Start Game Again');
+    
+};
+
+
+/* Getting User To Next Window of Game */
+
+function redirect() {
+    window.location.href = "";
+}

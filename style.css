@@ -2,6 +2,9 @@
 
 body{
     background-color: rgb(113, 151, 201);
+    overflow: scroll;
+    display: grid;
+    text-align: center;
 }
 .setgrid{
     display: grid;
